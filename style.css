@@ -5,9 +5,9 @@
     /* Cores Principais */
     --bg-color: #121212;        /* Dark Graphite */
     --card-bg: #1e1e1e;         /* Cartões */
-    --text-primary: #e6e6e6;    /* Texto claro */
-    --text-secondary: #a0a0a0;  /* Texto cinza */
-    --accent: #64ffda;          /* Ciano Tech */
+    --text-primary: #e7e9f7;    /* Texto claro */
+    --text-secondary: #e7e9f7;  /* Texto cinza */
+    --accent: #3b2a6c;          /* Ciano Tech */
     
     /* Variáveis Dinâmicas (Efeito Camaleão) */
     --dynamic-bg: #111;
@@ -40,6 +40,10 @@ a {
 }
 
 ul { list-style: none; }
+
+h2 {
+    font-weight: 300;
+}
 
 .container {
     max-width: 1200px;
@@ -96,10 +100,18 @@ ul { list-style: none; }
 }
 
 .hero-content h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    letter-spacing: -1px;
+    font-family: "Tangerine", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+    /* DICA: Fontes cursivas costumam parecer menores que as fontes retas. 
+       Você pode precisar aumentar o tamanho dela para dar destaque. */
+    font-size: 10rem; /* Ajuste esse valor para ficar do tamanho ideal na sua tela */
     margin-bottom: 10px;
+    color: #b7c4fc; /* Cor do nome */
+    letter-spacing: 2px;
+    text-shadow: 0 4px 15px rgba(0,0,0,0.6);
     
     /* Animação de Entrada */
     opacity: 0;
@@ -108,11 +120,12 @@ ul { list-style: none; }
 }
 
 .hero-content p {
-    font-size: 1.5rem;
-    color: var(--accent);
+    font-size: 3rem;
+    color: #e7e9f7;
     font-weight: 400;
     margin-bottom: 40px;
-    
+    font-family: 'Tangerine', cursive;
+
     /* Animação de Entrada */
     opacity: 0;
     animation: openingFade 1.5s ease-out forwards;
@@ -162,14 +175,14 @@ ul { list-style: none; }
    3. SEÇÕES GERAIS (Intro, Sobre, Divisores)
    ========================================= */
 .section-divider {
-    padding: 120px 0 60px;
+    padding: 20px 0 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-divider::before {
+/* .section-divider::before {
     content: '';
     display: block;
     width: 1px;
@@ -177,7 +190,7 @@ ul { list-style: none; }
     background-color: var(--accent);
     opacity: 0.6;
     margin-bottom: 20px;
-}
+} */
 
 .section-divider h3 {
     font-size: 2rem;
@@ -189,23 +202,19 @@ ul { list-style: none; }
 
 /* INTRO DASHBOARD (Texto + Skills) */
 .intro-section {
-    padding: 100px 20px;
+    padding: 6% 10% 4% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
-    background: linear-gradient(to right, rgba(255,255,255,0.02), transparent);
-    border-radius: 20px;
-    margin: 50px auto;
-    max-width: 1200px;
+    max-width: 90%;
 }
 
-.text-block { flex: 1; max-width: 600px; }
+/* .text-block { flex: 1; max-width: 600px; } */
 .text-block h2 {
     font-size: 2.8rem;
     line-height: 1.1;
     margin-bottom: 20px;
-    background: linear-gradient(90deg, #fff, #888);
+    background: linear-gradient(90deg, #fff, #fff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -225,7 +234,7 @@ ul { list-style: none; }
     border-radius: 15px;
     border: 1px solid rgba(255,255,255,0.05);
 }
-.skill { margin-bottom: 25px; }
+.skill { margin: 1% 20%; }
 .skill span { display: block; margin-bottom: 8px; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
 .skill .bar-bg { width: 100%; height: 8px; background-color: #333; border-radius: 10px; overflow: hidden; }
 .skill .bar {
@@ -240,7 +249,7 @@ ul { list-style: none; }
 
 /* SOBRE MIM (BIO) */
 .about-section {
-    padding: 80px 10%;
+    padding: 2.5% 10%;
     background-color: #1a1a1a;
     color: #fff;
 }
@@ -261,7 +270,7 @@ ul { list-style: none; }
 .about-image img:hover { filter: grayscale(0%); }
 .about-text h2 {
     font-size: 2.5rem; margin-bottom: 20px;
-    border-left: 4px solid #ff5722;
+    border-left: 4px solid var(--accent);
     padding-left: 15px;
 }
 .about-text p { margin-bottom: 15px; line-height: 1.6; color: #ccc; }
@@ -417,25 +426,183 @@ ul { list-style: none; }
 
 /* ESTILO 2: GALERIA ESPALHADA (Scattered) */
 .project-showcase {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    align-items: center;
-    padding: 100px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Coloca o texto em cima e as fotos embaixo */
+    align-items: center;    /* Centraliza tudo */
+    gap: 30px;              /* Espaço grande para respirar entre texto e fotos */
+    margin-top: 40px;
 }
-.gallery-scattered { position: relative; height: 600px; }
+
+.project-teaser {
+    text-align: center;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* O Rótulo estilo "Pílula" */
+.teaser-label {
+    display: inline-block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--text-secondary, #aaa);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 6px 18px;
+    border-radius: 30px; /* Bordas totalmente arredondadas */
+    margin-bottom: 20px;
+}
+
+/* O Título Minimalista e Fino */
+.teaser-title {
+    font-size: 3.5rem;
+    font-weight: 300; /* Deixa a fonte bem fina e elegante */
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+/* A frase de impacto */
+.teaser-text {
+    font-size: 1.1rem;
+    color: #999;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+/* O Botão animado */
+.teaser-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--overlay-accent, #e9b2bd); /* Usa a cor rosa da Camélia */
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    transition: transform 0.4s ease; /* Animação suave */
+}
+
+.project-desc {
+    text-align: center;
+    max-width: 800px; /* Impede que o texto fique comprido demais em telas grandes */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* O "01. Residencial Unifamiliar" */
+.project-category {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--overlay-accent, #e9b2bd); /* Puxa a cor do projeto se possível, ou um rosa/ciano padrão */
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* O Título Gigante */
+.project-title-huge {
+    font-size: 4rem; /* Tamanho massivo */
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    letter-spacing: -1.5px; /* Deixa as letras mais juntinhas, muito elegante */
+    color: #ffffff;
+}
+
+/* O Subtítulo/Conceito */
+.project-concept-text {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+/* O Texto Descritivo */
+.project-summary {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #999999;
+    margin-bottom: 35px;
+}
+
+/* O Botão Falso (Span) */
+.btn-link {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffffff;
+    border-bottom: 2px solid var(--overlay-accent, #e9b2bd);
+    padding-bottom: 5px;
+    transition: all 0.3s;
+}
+
+.interactive-section:hover .btn-link {
+    color: var(--overlay-accent, #e9b2bd);
+    padding-bottom: 10px; /* O sublinhado "desce" levemente ao passar o mouse */
+}
+
+.gallery-scattered { 
+    position: relative; 
+    width: 100%; 
+    aspect-ratio: 16 / 10;
+    margin: 5% 5%;
+}
 .scatter-img {
     position: absolute;
-    object-fit: cover;
-    border-radius: 4px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    width: 50%; 
+    height: 40%; 
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
     transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
 }
-.img-lg { width: 70%; top: 10%; left: 0; z-index: 1; }
-.img-sm { width: 70%; bottom: 10%; left: -20px; z-index: 3; }
-.img-md { width: 70%; top: 35%; right: -20px; z-index: 2; }
+
+.scatter-img:hover {
+    z-index: 10 !important;
+    transform: scale(1.05);
+}
+
+.img-lg { top: 0%; left: 0%; z-index: 1; }
+.img-sm { top: 22.5%; right: 5%; z-index: 3; }
+.img-md { bottom: 0%; left: 0%; z-index: 2; }
+
+/* =========================================
+   SEÇÃO INTERATIVA (CLICÁVEL)
+   ========================================= */
+.interactive-section {
+    cursor: pointer; /* Muda o mouse para a "mãozinha" */
+    border-radius: 16px;
+    padding: 20px; /* Dá um respiro caso o fundo apareça */
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+/* Efeito sutil ao passar o mouse por cima de qualquer parte da seção */
+.interactive-section:hover {
+    background-color: rgba(255, 255, 255, 0.03); /* Fundo levemente clareado */
+}
+
+/* Mantém a cor do botão acesa quando o mouse está na seção */
+.interactive-section:hover .btn-link {
+    color: var(--overlay-accent, #64ffda);
+}
+
+.interactive-section:hover .teaser-btn {
+    transform: translateX(10px); /* O botão inteiro escorrega pra direita */
+}
+
+.btn-icon {
+    font-size: 1.3rem;
+    transition: transform 0.4s ease;
+}
+
+.interactive-section:hover .btn-icon {
+    transform: translateX(5px); /* A seta escorrega um pouco mais rápido */
+}
 
 /* ESTILO 3: PROJETOS DIVIDIDOS (Split) */
 .split-projects {
@@ -596,7 +763,10 @@ footer {
     
     /* Projetos - Scattered */
     .project-showcase { grid-template-columns: 1fr; }
-    .gallery-scattered { height: 400px; margin-top: 40px; }
+    .gallery-scattered { 
+        aspect-ratio: 1 / 1.1; 
+        margin-top: 40px; 
+    }
     
     /* Projetos - Split */
     .split-projects { width: 95%; flex-direction: column; height: auto; }
@@ -605,12 +775,27 @@ footer {
     /* Overlay */
     .project-grid { grid-template-columns: 1fr; padding: 20px; }
     .gallery-grid { grid-template-columns: 1fr; }
+
+    .scatter-img { width: 65%; height: 45%; }
+    
+    .img-lg { top: 0%; left: 15%; }
+    .img-sm { top: 30%; right: 0%; }
+    .img-md { bottom: 0%; left: 15%; }
+
+    .project-title-huge { font-size: 2.5rem; }
+    .project-concept-text { font-size: 1.1rem; }
+    .project-showcase { gap: 20px; }
+    .teaser-title { font-size: 2.5rem; }
+    .teaser-text { font-size: 1rem; padding: 0 15px; }
+
 }
 
 /* =========================================
    NOVA DIREÇÃO DE ARTE DO OVERLAY
    ========================================= */
 
+
+   
 /* Variável base para a cor dinâmica dentro do overlay */
 #project-overlay {
     --overlay-accent: #64ffda; /* Cor padrão de segurança */

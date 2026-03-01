@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -33,20 +36,6 @@
             <div class="text-block scroll-trigger">
                 <h2>O Arquiteto Híbrido</h2>
                 <p>Não projeto apenas espaços, crio sistemas. Minha abordagem une a sensibilidade da arquitetura orgânica com a precisão da lógica de programação.</p>
-            </div>
-            <div class="skills-bar scroll-trigger delay-1">
-                <div class="skill">
-                    <span>BIM & Revit</span>
-                    <div class="bar-bg">
-                        <div class="bar" style="--target: 85%"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>Design Biofílico</span>
-                    <div class="bar-bg">
-                        <div class="bar" style="--target: 80%"></div>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -75,6 +64,46 @@
                 </div>
             </div>
         </section>
+
+        <div class="skills-bar scroll-trigger delay-1">
+            <h2 align="center">Habilidades Técnicas</h2>
+            <div class="skill">
+                <span>AutoCAD</span>
+                <div class="bar-bg">
+                    <div class="bar" style="--target: 60%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>SketchUp</span>
+                <div class="bar-bg">
+                    <div class="bar" style="--target: 70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>BIM & Revit</span>
+                <div class="bar-bg">
+                    <div class="bar" style="--target: 20%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Lumion</span>
+                <div class="bar-bg">
+                    <div class="bar" style="--target: 40%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Inglês</span>
+                <div class="bar-bg">
+                    <div class="bar" style="--target: 80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Projeto Preventivo</span>
+                <div class="bar-bg">
+                    <div class="bar" style="--target: 50%"></div>
+                </div>
+            </div>
+        </div>
 
         <div id="project-overlay" class="overlay-container">
             <button class="close-btn" onclick="fecharProjeto()">&times;</button>
@@ -122,15 +151,17 @@
             <img id="lightbox-img" class="lightbox-img" src="" alt="Imagem Ampliada">
         </div>
 
-        <div class="section-divider">
-            <h3 class="scroll-trigger">Projetos Selecionados</h3>
-        </div>
-
-        <section class="project-showcase container">
-            <div class="project-desc scroll-trigger">
-                <h4>01. Residência Camélia</h4>
-                <p>Uma exploração de curvas e volumetria orgânica. O desafio foi adaptar a forma à topografia acidentada sem grandes cortes de terra.</p>
-                <a href="#" onclick="abrirProjeto(0); return false;" class="btn-link">Ver Estudo de Caso &rarr;</a>
+        <section class="project-showcase container interactive-section" onclick="abrirProjeto(0)">
+    
+            <div class="project-teaser scroll-trigger">
+                <span class="teaser-label">Projeto em Destaque</span>
+                <h3 class="teaser-title">Casa Camélia</h3>
+                <p class="teaser-text">Onde a geometria orgânica encontra a eficiência bioclimática.</p>
+                
+                <div class="teaser-btn">
+                    <span class="btn-text">Descobrir Projeto</span>
+                    <span class="btn-icon">&rarr;</span>
+                </div>
             </div>
             
             <div class="gallery-scattered">
@@ -138,6 +169,7 @@
                 <img src="assets/Camelia/Render_Noite_Externo.jpeg" class="scatter-img img-sm scroll-trigger fade-left delay-1" alt="Detalhe">
                 <img src="assets/Camelia/Render_Noite_Externo_Lateral.jpeg" class="scatter-img img-md scroll-trigger fade-right delay-2" alt="Planta">
             </div>
+
         </section>
 
         <section id="projetos-dinamicos" class="immersive-gallery">
