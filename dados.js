@@ -106,5 +106,42 @@ const dadosProjetos = [
             "assets/Tropical/Maquete_Rua_06.jpeg",    
             "assets/Tropical/Maquete_Rua_07.jpeg"   
         ]
+    },
+    // PROJETO 3 (Topologia e Terraplenagem)
+    {
+        titulo: "Topologia & Terraplenagem",
+        subtitulo: "Estudo de Relevo, Corte, Aterro e Maquete Física",
+        
+        // KIT DE CORES TROPICAL/TERRENO (Inspirado nas curvas de nível verdes da maquete)
+        corDestaque: "#1b994b", // Verde esmeralda/folha vibrante
+        corFundo: "#141c16",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
+        corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
+        
+        conceito: "A materialização do território. Compreender a terra não como uma tela em branco, mas como um volume vivo que dita as regras, os limites e as possibilidades da implantação arquitetônica.",
+        
+        // MOODBOARD: Uma foto focada nos detalhes das curvas cortadas a laser
+        imagemMoodboard: "assets/Topografia/Topografia_mood.jpg",
+        
+        // CAPA: A foto geral da maquete vista de cima/diagonal
+        imagemCapa: "assets/Topografia/maquete-Capa.jpeg", 
+        
+        ano: "2025 (4º Semestre)",
+        tipologia: "Estudo Topográfico",
+        softwares: [
+            "AutoCAD", 
+            "Corte a Laser", 
+            "Trabalho Manual"
+        ],
+        
+        desafio: "O desafio proposto foi dominar a modificação do relevo natural. Foi necessário selecionar um terreno acidentado no município de Blumenau (área superior a 1.000 m²) e projetar a implantação de uma plataforma plana que ocupasse no mínimo 20% da área. O maior rigor técnico exigido foi o cálculo exato para gerar alturas semelhantes entre os volumes de corte e de aterro, garantindo eficiência e economia na movimentação de terra.",
+        
+        solucao: "A partir do levantamento aerofotogramétrico, o terreno foi modelado no AutoCAD. As curvas de nível foram retificadas, definindo com precisão as cristas de corte e pés de aterro. Para a representação, optou-se pela maquete física: o arquivo digital foi rigorosamente preparado, separando as curvas e as linhas de guia (impressão e corte) em 'layers' distintos para a máquina de corte a laser. A montagem em chapas sobrepostas e a pintura em degradê transformaram dados topográficos áridos em uma representação tátil impressionante.",
+        
+        imagensGaleria: [
+            "assets/Topografia/maquete-angulo1.jpeg", 
+            "assets/Topografia/maquete-angulo2.jpeg",
+            "assets/Topografia/maquete-superior.jpeg",
+            "assets/Topografia/maquete-Capa.jpeg",  
+        ]
     }
 ];

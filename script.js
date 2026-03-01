@@ -9,6 +9,34 @@ window.onbeforeunload = function () {
     window.scrollTo(0, 0);
 }
 
+function renderizarProjetos() {
+    const trilha = document.getElementById('meu-carrossel');
+    if (!trilha) return;
+
+    trilha.innerHTML = ''; // Garante que começa vazio
+
+    dadosProjetos.forEach((projeto, index) => {
+        // Formata o número para ter o zero na frente (ex: "01", "02")
+        const numeroFormatado = String(index + 1).padStart(2, '0');
+
+        // Cria a estrutura HTML do cartão usando crases (template string)
+        const cartaoHTML = `
+            <div class="project-card" onclick="abrirSeAtivo(${index}, this)">
+                <div class="card-image">
+                    <img src="${projeto.imagemCapa}" alt="${projeto.titulo}">
+                </div>
+                <div class="card-info">
+                    <span>${numeroFormatado}. ${projeto.tipologia}</span>
+                    <h3>${projeto.titulo}</h3>
+                </div>
+            </div>
+        `;
+
+        // Injeta o cartão na tela
+        trilha.innerHTML += cartaoHTML;
+    });
+}
+
 // Variáveis do Carrossel Infinito
 let indiceCarrossel = 0;
 let cartoesCarrossel = [];
@@ -31,9 +59,11 @@ document.addEventListener('DOMContentLoaded', () => {
     elementsToAnimate.forEach(el => observerGeneral.observe(el));
 
     // --- B. INICIALIZAÇÃO DO CARROSSEL INFINITO ---
-    cartoesCarrossel = document.querySelectorAll('.project-card');
+    renderizarProjetos(); // DESENHA OS CARTÕES PRIMEIRO
+    
+    cartoesCarrossel = document.querySelectorAll('.project-card'); // AGORA PEGA ELES
     if(cartoesCarrossel.length > 0) {
-        atualizarCarrossel();
+        atualizarCarrossel(); // LIGA A LÓGICA 3D
     }
 
     // --- C. SUPORTE A DESLIZE (SWIPE) NO CELULAR ---
