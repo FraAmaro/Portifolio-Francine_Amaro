@@ -164,7 +164,7 @@ const dadosProjetos = [
         imagemCapa: "assets/Sensacoes/Maquete_Capa.png", 
         
         ano: "2024 (2º Semestre)",
-        tipologia: "Estudo Topográfico",
+        tipologia: "Sensações",
         softwares: [
             "Corte a Laser", 
             "Trabalho Manual"
@@ -175,8 +175,72 @@ const dadosProjetos = [
         solucao: " - ",
 
         imagensGaleria: [
+            "assets/Sensacoes/Maquete_Capa.png",
             "https://drive.google.com/file/d/1obhEfe3407uqcvp3daLtmXxyv41awn8A/view?usp=sharing", 
         ]
-    },  
+    },
+    // PROJETO 5 (Jacare)
+    {
+        titulo: "Jacare",
+        subtitulo: "Jacare",
+        
+        corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
+        corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
+        corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
+        
+        conceito: " - ",
+        
+        imagemMoodboard: "assets/Jacare/Inspiracao_Jacare.jpeg",
+        
+        imagemCapa: "assets/Jacare/Maquete_Superior.jpeg", 
+        
+        ano: "2024 (2º Semestre)",
+        tipologia: "Jacaré",
+        softwares: [
+            "Corte a Laser", 
+            "Trabalho Manual"
+        ],
+        
+        desafio: " - ",
+        inspiracao: " - ",
+        solucao: " - ",
+
+        imagensGaleria: [
+            "assets/Jacare/Maquete_Superior.jpeg",
+            "https://drive.google.com/file/d/1obhEfe3407uqcvp3daLtmXxyv41awn8A/view?usp=sharing", 
+        ]
+    },
+    // PROJETO 6 (Escola)
+    {
+        titulo: "Escola",
+        subtitulo: "Escola",
+        
+        corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
+        corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
+        corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
+        
+        conceito: " - ",
+        
+        imagemMoodboard: "assets/Escola/Inspiracao_Escola.jpeg",
+        
+        imagemCapa: "assets/Escola/Maquete_Perspectiva_Direita.jpeg", 
+        
+        ano: "2024 (2º Semestre)",
+        tipologia: "Escola",
+        softwares: [
+            "Trabalho Manual"
+        ],
+        
+        desafio: " - ",
+        inspiracao: " - ",
+        solucao: " - ",
+
+        imagensGaleria: [
+            "assets/Escola/Maquete_Frontal.jpeg",
+            "assets/Escola/Maquete_Lateral_Esquerda.jpeg",
+            "assets/Escola/Maquete_Perspectiva_Direita.jpeg",
+            "assets/Escola/Maquete_Perspectiva_Esquerda.jpeg",
+        ]
+    },   
     
 ];
