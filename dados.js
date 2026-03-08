@@ -241,6 +241,36 @@ const dadosProjetos = [
             "assets/Escola/Maquete_Perspectiva_Direita.jpeg",
             "assets/Escola/Maquete_Perspectiva_Esquerda.jpeg",
         ]
-    },   
+    },
+    // PROJETO 7 (Le Corbusier)
+    {
+        titulo: "Le Corbusier",
+        subtitulo: "Le Corbusier",
+        
+        corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
+        corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
+        corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
+        
+        conceito: " - ",
+        
+        imagemMoodboard: "assets/Le_Corbusier/Inspiracao_Le_Corbusier.jpeg",
+        
+        imagemCapa: "assets/Le_Corbusier/Maquete_Capa.png", 
+        
+        ano: "2024 (1º Semestre)",
+        tipologia: "Le Corbusier",
+        softwares: [
+            "Trabalho Manual"
+        ],
+        
+        desafio: " - ",
+        inspiracao: " - ",
+        solucao: " - ",
+
+        imagensGaleria: [
+            "assets/Le_Corbusier/Maquete_Capa.png",
+            "https://drive.google.com/file/d/1YwYHsdIhQbMxceGpLv5yueik2C7y7KKu/view?usp=sharing"
+        ]
+    },
     
 ];
