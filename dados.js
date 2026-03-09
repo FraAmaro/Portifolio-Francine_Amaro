@@ -152,9 +152,10 @@ const dadosProjetos = [
         titulo: "Planos",
         subtitulo: "Sensações e Percepções do Espaço através da Arquitetura",
         
-        corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
-        corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
-        corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
+        // KIT DE CORES: ABSTRAÇÃO E LUZ (Índigo e Violeta)
+        corDestaque: "#9d88ff", // Violeta luminoso/neon suave (representa a luz e a abstração)
+        corFundo: "#1e1f2b",    // Azul noturno/índigo muito escuro (cria profundidade)
+        corTexto: "#e6e5f2",    // Branco com um toque levíssimo de azul/roxo
         
         conceito: "A arquitetura é a arte de moldar o espaço para criar experiências sensoriais que transcendem a mera funcionalidade. Este projeto é uma exploração das sensações e percepções do espaço, onde cada curva, cada plano e cada material são cuidadosamente escolhidos para evocar emoções e estimular os sentidos. \n\n \"A arquitetura é a música petrificada, onde as formas e os volumes compõem uma sinfonia visual que ressoa na alma de quem a habita.\" - Autor Desconecido.",
         
@@ -181,9 +182,10 @@ const dadosProjetos = [
         titulo: "Biomimética",
         subtitulo: "Forma, composição e espaços na Arquitetura.",
         
-        corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
-        corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
-        corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
+        // KIT DE CORES: PÂNTANO E BIOLOGIA (Tons de Verde Réptil)
+        corDestaque: "#7ca352", // Verde "jacaré" / folha nova
+        corFundo: "#1b2e20",    // Verde selva/pântano muito escuro e denso
+        corTexto: "#e1ede3",    // Branco esverdeado suave
         
         conceito: "Desenvolver a capacidade de criação de formas e sua estruturação através da observação de características sigificativas.\n\n \"As respostas as nossas perguntas estão em todad parte, só precisamos mudar a lente a qual vemos o mundo\" - Janine Benyus",
         
@@ -210,9 +212,10 @@ const dadosProjetos = [
         titulo: "Sustentabilidade do Material",
         subtitulo: "Escola isolada sustentável",
         
-        corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
-        corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
-        corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
+       // KIT DE CORES: BAMBU E TERRA (Ocre e Marrom Quente)
+        corDestaque: "#d6a85c", // Amarelo Bambu / Ocre (traz luz e aspecto natural)
+        corFundo: "#3d2a1d",    // Marrom terra profunda / argila escura
+        corTexto: "#f4ede6",    // Off-white quente (lembra papel reciclado/palha)
         
         conceito: "As escolas isoladas no Brasil estão localizadas em regiões remotas, como áreas rurais e de difícil acesso, desempenhando um papel importante na educação de crianças e adolecentes.\n\"Sustentabilidade é toda ação destinada a manter as condições energéticas informacionais físico-químicas que sustentam todos os seres, especialmente a Terraviva, a comunidade devida e a vida humana.\" - Leonardo Boff",
         
@@ -240,9 +243,10 @@ const dadosProjetos = [
         titulo: "Le Corbusier",
         subtitulo: "Cabanon de Le Corbusier (1952)",
         
-        corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
-        corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
-        corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
+        // KIT DE CORES: MODERNISMO (Concreto Aparente e Vermelho Primário)
+        corDestaque: "#c94b36", // Vermelho clássico de Le Corbusier / Policromia arquitetônica
+        corFundo: "#2b2c2e",    // Cinza grafite escuro (representando o concreto bruto)
+        corTexto: "#f0f0f0",    // Branco puro e limpo, bem modernista
         
         conceito: "Vista como uma disciplina que prospera inovação, a arquitetura avança por meio de um acúmulo de concepções do que pela geração subta de novas ideeias.\n\"A casa é uma máquina de morar\ - Le Corbusier",
         
