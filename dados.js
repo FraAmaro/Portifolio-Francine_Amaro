@@ -204,7 +204,7 @@ const dadosProjetos = [
 
         imagensGaleria: [
             "assets/Jacare/Maquete_Superior.jpeg",
-            "https://drive.google.com/file/d/1obhEfe3407uqcvp3daLtmXxyv41awn8A/view?usp=sharing", 
+            "https://drive.google.com/file/d/1OvUtdh3pboxPuydowVRtwIsu31ZtQ26D/view?usp=sharing", 
         ]
     },
     // PROJETO 6 (Sustentabilidade do Material)
