@@ -143,7 +143,7 @@ const dadosProjetos = [
         imagensGaleria: [
             "assets/Topografia/maquete-angulo1.jpeg", 
             "assets/Topografia/maquete-angulo2.jpeg",
-            "assets/Topografia/maquete-superior.jpeg",
+            "assets/Topografia/maquete-Superior.jpeg",
             "assets/Topografia/maquete-Capa.jpeg",  
         ]
     },
