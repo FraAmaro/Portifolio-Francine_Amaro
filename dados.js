@@ -154,7 +154,7 @@ const dadosProjetos = [
         
         // KIT DE CORES: ABSTRAÇÃO E LUZ (Índigo e Violeta)
         corDestaque: "#ff9d00", // Violeta luminoso/neon suave (representa a luz e a abstração)
-        corFundo: "#b43636",    // Azul noturno/índigo muito escuro (cria profundidade)
+        corFundo: "#a55d5d",    // Azul noturno/índigo muito escuro (cria profundidade)
         corTexto: "#ffeeee",    // Branco com um toque levíssimo de azul/roxo
         
         conceito: "A arquitetura é a arte de moldar o espaço para criar experiências sensoriais que transcendem a mera funcionalidade. Este projeto é uma exploração das sensações e percepções do espaço, onde cada curva, cada plano e cada material são cuidadosamente escolhidos para evocar emoções e estimular os sentidos. \n\n \"A arquitetura é a música petrificada, onde as formas e os volumes compõem uma sinfonia visual que ressoa na alma de quem a habita.\" - Autor Desconecido.",
@@ -183,8 +183,8 @@ const dadosProjetos = [
         subtitulo: "Forma, composição e espaços na Arquitetura.",
         
         // KIT DE CORES: PÂNTANO E BIOLOGIA (Tons de Verde Réptil)
-        corDestaque: "#6b8e23", // Verde "jacaré" / folha nova
-        corFundo: "#dac153",    // Verde selva/pântano muito escuro e denso
+        corDestaque: "#55790c", // Verde "jacaré" / folha nova
+        corFundo: "#bbad6c",    // Verde selva/pântano muito escuro e denso
         corTexto: "#1c1700",    // Branco esverdeado suave
         
         conceito: "Desenvolver a capacidade de criação de formas e sua estruturação através da observação de características sigificativas.\n\n \"As respostas as nossas perguntas estão em todad parte, só precisamos mudar a lente a qual vemos o mundo\" - Janine Benyus",
@@ -214,7 +214,7 @@ const dadosProjetos = [
         
        // KIT DE CORES: BAMBU E TERRA (Ocre e Marrom Quente)
         corDestaque: "#593617", // Amarelo Bambu / Ocre (traz luz e aspecto natural)
-        corFundo: "#e3d3c1",    // Marrom terra profunda / argila escura
+        corFundo: "#b5a38f",    // Marrom terra profunda / argila escura
         corTexto: "#2b1a0a",    // Off-white quente (lembra papel reciclado/palha)
         
         conceito: "As escolas isoladas no Brasil estão localizadas em regiões remotas, como áreas rurais e de difícil acesso, desempenhando um papel importante na educação de crianças e adolecentes.\n\"Sustentabilidade é toda ação destinada a manter as condições energéticas informacionais físico-químicas que sustentam todos os seres, especialmente a Terraviva, a comunidade devida e a vida humana.\" - Leonardo Boff",
