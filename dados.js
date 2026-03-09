@@ -149,10 +149,9 @@ const dadosProjetos = [
     },
     // PROJETO 4 (Sensacoes)
     {
-        titulo: "Sensações",
+        titulo: "Planos",
         subtitulo: "Sensações e Percepções do Espaço através da Arquitetura",
         
-        // KIT DE CORES TROPICAL/TERRENO (Inspirado nas curvas de nível verdes da maquete)
         corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
         corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
         corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
@@ -170,56 +169,52 @@ const dadosProjetos = [
             "Trabalho Manual"
         ],
         
-        desafio: "O desafio proposto foi dominar a modificação do relevo natural. Foi necessário selecionar um terreno acidentado no município de Blumenau (área superior a 1.000 m²) e projetar a implantação de uma plataforma plana que ocupasse no mínimo 20% da área. O maior rigor técnico exigido foi o cálculo exato para gerar alturas semelhantes entre os volumes de corte e de aterro, garantindo eficiência e economia na movimentação de terra.",
-        inspiracao: " - ",
-        solucao: " - ",
+        desafio: "Criar e construir uma estrutura espacia abstrata composta por planos (reais ou virtuais), cuja o resultado gere no mínimo 5 boas sensações espaciais diferentes. Explorando diferentes recursos de opacidade, trasparencia, cores e texturas.",
 
         imagensGaleria: [
             "assets/Sensacoes/Maquete_Capa.png",
             "https://drive.google.com/file/d/1obhEfe3407uqcvp3daLtmXxyv41awn8A/view?usp=sharing", 
         ]
     },
-    // PROJETO 5 (Jacare)
+    // PROJETO 5 (Biônica)
     {
-        titulo: "Jacare",
-        subtitulo: "Jacare",
+        titulo: "Biomimética",
+        subtitulo: "Forma, composição e espaços na Arquitetura.",
         
         corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
         corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
         corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
         
-        conceito: " - ",
+        conceito: "Desenvolver a capacidade de criação de formas e sua estruturação através da observação de características sigificativas.\n\n \"As respostas as nossas perguntas estão em todad parte, só precisamos mudar a lente a qual vemos o mundo\" - Janine Benyus",
         
         imagemMoodboard: "assets/Jacare/Inspiracao_Jacare.jpeg",
         
         imagemCapa: "assets/Jacare/Maquete_Superior.jpeg", 
         
         ano: "2024 (2º Semestre)",
-        tipologia: "Jacaré",
+        tipologia: "Biônica",
         softwares: [
             "Corte a Laser", 
             "Trabalho Manual"
         ],
         
-        desafio: " - ",
-        inspiracao: " - ",
-        solucao: " - ",
+        desafio: "Criar e construir uma estrutura espacia abstrata utilizando os conceitos da bionica e da abstração da forma, desenvolvendo um modelo biológico que apresente caracteristicas significativas de um ser vivo a definir.",
 
         imagensGaleria: [
             "assets/Jacare/Maquete_Superior.jpeg",
             "https://drive.google.com/file/d/1obhEfe3407uqcvp3daLtmXxyv41awn8A/view?usp=sharing", 
         ]
     },
-    // PROJETO 6 (Escola)
+    // PROJETO 6 (Sustentabilidade do Material)
     {
-        titulo: "Escola",
-        subtitulo: "Escola",
+        titulo: "Sustentabilidade do Material",
+        subtitulo: "Escola isolada sustentável",
         
         corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
         corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
         corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
         
-        conceito: " - ",
+        conceito: "As escolas isoladas no Brasil estão localizadas em regiões remotas, como áreas rurais e de difícil acesso, desempenhando um papel importante na educação de crianças e adolecentes.\n\"Sustentabilidade é toda ação destinada a manter as condições energéticas informacionais físico-químicas que sustentam todos os seres, especialmente a Terraviva, a comunidade devida e a vida humana.\" - Leonardo Boff",
         
         imagemMoodboard: "assets/Escola/Inspiracao_Escola.jpeg",
         
@@ -231,9 +226,7 @@ const dadosProjetos = [
             "Trabalho Manual"
         ],
         
-        desafio: " - ",
-        inspiracao: " - ",
-        solucao: " - ",
+        desafio: "Desenvolver uma maquete utilizando com o principal material o bambu e resgatar as técnicas construtivas indígeno brasileito.",
 
         imagensGaleria: [
             "assets/Escola/Maquete_Frontal.jpeg",
@@ -245,30 +238,29 @@ const dadosProjetos = [
     // PROJETO 7 (Le Corbusier)
     {
         titulo: "Le Corbusier",
-        subtitulo: "Le Corbusier",
+        subtitulo: "Cabanon de Le Corbusier (1952)",
         
         corDestaque: "#b86d35", // Verde esmeralda/folha vibrante
         corFundo: "#4b220f",    // Fundo verde muito escuro (quase preto, cor de floresta densa)
         corTexto: "#e6f2eb",    // Branco esverdeado suave para leitura
         
-        conceito: " - ",
+        conceito: "Vista como uma disciplina que prospera inovação, a arquitetura avança por meio de um acúmulo de concepções do que pela geração subta de novas ideeias.\n\"A casa é uma máquina de morar\ - Le Corbusier",
         
         imagemMoodboard: "assets/Le_Corbusier/Inspiracao_Le_Corbusier.jpeg",
         
         imagemCapa: "assets/Le_Corbusier/Maquete_Capa.png", 
         
         ano: "2024 (1º Semestre)",
-        tipologia: "Le Corbusier",
+        tipologia: "Diorama",
         softwares: [
             "Trabalho Manual"
         ],
         
-        desafio: " - ",
-        inspiracao: " - ",
-        solucao: " - ",
+        desafio: "Omenagiar um arquiteto cujo o trabalho construido demonstra uma combinação das qualidade de talento, visão e compromisso que produziu contribuições consistentes e significativas para a humanidade e o ambiente construido através da arte da arquitetura. Desenvolvendo um diorama tendo como base as princiáis características do estilo arquitetônico do profissional estudado.",
 
         imagensGaleria: [
             "assets/Le_Corbusier/Maquete_Capa.png",
+            "assets/Le_Corbusier/Conceito.jpeg",
             "https://drive.google.com/file/d/1YwYHsdIhQbMxceGpLv5yueik2C7y7KKu/view?usp=sharing"
         ]
     },
